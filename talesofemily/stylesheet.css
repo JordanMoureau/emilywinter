@@ -1,0 +1,108 @@
+* {
+    font-family: 'Scope One', serif;
+    letter-spacing: 5px;
+    text-transform: lowercase;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 150px 820px 150px 310px 242px 350px 150px 110px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px auto;
+    width: 920px;
+}
+
+.tales {
+    display: grid;
+    grid-area: 1 / 1 / 1 / 1;
+    align-items: center;
+    justify-items: end;
+}
+
+.emily {
+    display: grid;
+    grid-area: 1 / 2 / 1 / 2;
+    width: 350px;
+    align-items: center;
+    justify-items: center;
+}
+
+.season {
+    display: grid;
+    grid-area: 1 / 3 / 1 / 3;
+    align-items: center;
+    justify-items: start;
+}
+
+.hero {
+    display: grid;
+    grid-area: 2 / 1 / 2 / span2;
+    justify-items: center;
+    margin-top: 80px;
+}
+
+.hero-poem {
+    display: grid;
+    grid-area: 3 / 1 / 3 / span2;
+    align-items: center;
+    justify-items: center;
+    font-size: 18px;
+    margin: 50px 0px;
+}
+
+.portrait {
+    display: grid;
+    grid-area: 4 / 1 / 5 / span2;
+}
+
+.side-show-photo {
+    display: grid;
+    grid-area: 4 / 2 / 4 / span2;
+    justify-content: end;
+}
+
+.side-show-text {
+    display: grid;
+    grid-area: 5 / 3 / 5 / 3;
+    justify-content: start;
+    margin-left: -90px;
+    padding-top: 38px;
+    align-items: center;
+    line-height: 2.5;
+    font-size: 15px;
+
+}
+
+.square-one {
+    display: grid;
+    grid-area: 6 / 1 / 6 / 1;
+    justify-content: center;
+    align-content: center;
+    margin-top: 80px;
+}
+
+.square-two {
+    display: grid;
+    grid-area: 6 / 2 / 6 / 2;
+    justify-content: center;
+    align-content: center;
+    margin-top: 80px;
+}
+
+.square-three {
+    display: grid;
+    grid-area: 6 / 3 / 6 / 3;
+    justify-content: center;
+    align-content: center;
+    margin-top: 80px;
+}
+
+.footer-poem {
+    display: grid;
+    grid-area: 7 / 1 / 7 / span2;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+    font-size: 14px;
+}
+
