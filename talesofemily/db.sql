@@ -1,0 +1,6 @@
+CREATE DATABASE IF NOT EXISTS DBwinter;
+
+CREATE TABLE winter_likes (
+    ID int NOT NULL PRIMARY KEY,
+    LIKES int
+);
